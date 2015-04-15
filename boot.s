@@ -202,10 +202,6 @@ hello:
     .asciz "Hello Guys!"
     .set helloSize, .-hello
 
-buffer:         
-    .asciz "\r\nMSW=xxxxxxxxxxxxxxxx"
-    .set mswSize, .-buffer
-
 memory:           
     .asciz "\r\nMemory:       KB"
     .set memStrSize, .-memory
